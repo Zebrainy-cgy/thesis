@@ -1,0 +1,1344 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{data-driven_discovery_of_pde}{article}{}
+      \name{author}{4}{}{%
+        {{hash=08ae8ecd80f5e871d65f751ea6d9dda2}{%
+           family={Rudy},
+           familyi={R\bibinitperiod},
+           given={Samuel\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=572af75cb67759c9684ffbb4d11cddf8}{%
+           family={Brunton},
+           familyi={B\bibinitperiod},
+           given={Steven\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6a40787d40e2987796669ac5bec77021}{%
+           family={Proctor},
+           familyi={P\bibinitperiod},
+           given={Joshua\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=39878c41ca2338687a0064bcc2ba2922}{%
+           family={Kutz},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi Nathan},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=08ae8ecd80f5e871d65f751ea6d9dda2}{%
+           family={Rudy},
+           familyi={R\bibinitperiod},
+           given={Samuel\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=572af75cb67759c9684ffbb4d11cddf8}{%
+           family={Brunton},
+           familyi={B\bibinitperiod},
+           given={Steven\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6a40787d40e2987796669ac5bec77021}{%
+           family={Proctor},
+           familyi={P\bibinitperiod},
+           given={Joshua\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=39878c41ca2338687a0064bcc2ba2922}{%
+           family={Kutz},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi Nathan},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{c9a5ec650bfcc6fb56ff91380e747a44}
+      \strng{fullhash}{36f8440124349a4def12f98f77b65143}
+      \strng{bibnamehash}{c8d831004a9415fa51ac439c3816a4c1}
+      \strng{authorbibnamehash}{c8d831004a9415fa51ac439c3816a4c1}
+      \strng{authornamehash}{c9a5ec650bfcc6fb56ff91380e747a44}
+      \strng{authorfullhash}{36f8440124349a4def12f98f77b65143}
+      \strng{nameabibnamehash}{c8d831004a9415fa51ac439c3816a4c1}
+      \strng{nameanamehash}{c9a5ec650bfcc6fb56ff91380e747a44}
+      \strng{nameafullhash}{36f8440124349a4def12f98f77b65143}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Researchers propose sparse regression for identifying governing partial differential equations for spatiotemporal systems. We propose a sparse regression method capable of discovering the governing partial differential equation(s) of a given system by time series measurements in the spatial domain. The regression framework relies on sparsity-promoting techniques to select the nonlinear and partial derivative terms of the governing equations that most accurately represent the data, bypassing a combinatorially large search through all possible candidate models. The method balances model complexity and regression accuracy by selecting a parsimonious model via Pareto analysis. Time series measurements can be made in an Eulerian framework, where the sensors are fixed spatially, or in a Lagrangian framework, where the sensors move with the dynamics. The method is computationally efficient, robust, and demonstrated to work on a variety of canonical problems spanning a number of scientific domains including Navier-Stokes, the quantum harmonic oscillator, and the diffusion equation. Moreover, the method is capable of disambiguating between potentially nonunique dynamical terms by using multiple time series taken with different initial data. Thus, for a traveling wave, the method can distinguish between a linear wave equation and the Korteweg–de Vries equation, for instance. The method provides a promising new technique for discovering governing equations and physical laws in parameterized spatiotemporal systems, where first-principles derivations are intractable.}
+      \field{journaltitle}{Science Advances}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{number}{4}
+      \field{title}{Data-driven discovery of partial differential equations}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{3}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{e1602614}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/sciadv.1602614
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/sciadv.1602614
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/sciadv.1602614
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/sciadv.1602614
+      \endverb
+      \keyw{data-driven_discovery_of_pde}
+    \endentry
+    \entry{10.5555/3291125.3291150}{article}{}
+      \name{author}{1}{}{%
+        {{hash=95a17c39168b9e6b8812f207b4e036c1}{%
+           family={Raissi},
+           familyi={R\bibinitperiod},
+           given={Maziar},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=95a17c39168b9e6b8812f207b4e036c1}{%
+           family={Raissi},
+           familyi={R\bibinitperiod},
+           given={Maziar},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {JMLR.org}%
+      }
+      \strng{namehash}{95a17c39168b9e6b8812f207b4e036c1}
+      \strng{fullhash}{95a17c39168b9e6b8812f207b4e036c1}
+      \strng{bibnamehash}{95a17c39168b9e6b8812f207b4e036c1}
+      \strng{authorbibnamehash}{95a17c39168b9e6b8812f207b4e036c1}
+      \strng{authornamehash}{95a17c39168b9e6b8812f207b4e036c1}
+      \strng{authorfullhash}{95a17c39168b9e6b8812f207b4e036c1}
+      \strng{nameabibnamehash}{95a17c39168b9e6b8812f207b4e036c1}
+      \strng{nameanamehash}{95a17c39168b9e6b8812f207b4e036c1}
+      \strng{nameafullhash}{95a17c39168b9e6b8812f207b4e036c1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We put forth a deep learning approach for discovering nonlinear partial differential equations from scattered and potentially noisy observations in space and time. Specifically, we approximate the unknown solution as well as the nonlinear dynamics by two deep neural networks. The first network acts as a prior on the unknown solution and essentially enables us to avoid numerical differentiations which are inherently ill-conditioned and unstable. The second network represents the nonlinear dynamics and helps us distill the mechanisms that govern the evolution of a given spatiotemporal data-set. We test the effectiveness of our approach for several benchmark problems spanning a number of scientific domains and demonstrate how the proposed framework can help us accurately learn the underlying dynamics and forecast future states of the system. In particular, we study the Burgers', Korteweg-de Vries (KdV), Kuramoto-Sivashinsky, nonlinear Schrödinger, and Navier-Stokes equations.}
+      \field{issn}{1532-4435}
+      \field{journaltitle}{J. Mach. Learn. Res.}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Deep hidden physics models: deep learning of nonlinear partial differential equations}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{19}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{932\bibrangedash 955}
+      \range{pages}{24}
+      \keyw{big data,data-driven scientific discovery,nonlinear dynamics,physics informed machine learning,predictive modeling,systems identification}
+    \endentry
+    \entry{lu2021learning}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6f6f1357e5a7fb658e3e9c999886ce83}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b367d1bdfec4169342f6797addd1c5d7}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Pengzhan},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b04db7dd7744ba0a4c8516ea52b2b2a4}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Guofei},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8d7acff517951d0a9eba8e9b39a167dc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhongqiang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=bfaf154b1f300f885a75adce4c6b773e}{%
+           family={Karniadakis},
+           familyi={K\bibinitperiod},
+           given={George\bibnamedelima Em},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \name{namea}{5}{}{%
+        {{hash=6f6f1357e5a7fb658e3e9c999886ce83}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b367d1bdfec4169342f6797addd1c5d7}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Pengzhan},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b04db7dd7744ba0a4c8516ea52b2b2a4}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Guofei},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8d7acff517951d0a9eba8e9b39a167dc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhongqiang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=bfaf154b1f300f885a75adce4c6b773e}{%
+           family={Karniadakis},
+           familyi={K\bibinitperiod},
+           given={George\bibnamedelima Em},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{fdebff66447a2ecc33abe80490823209}
+      \strng{fullhash}{ff79a03c159d9858e9715a9ba15ffe27}
+      \strng{bibnamehash}{a4021fa953a5bdfcfa24d6e4f0debd5c}
+      \strng{authorbibnamehash}{a4021fa953a5bdfcfa24d6e4f0debd5c}
+      \strng{authornamehash}{fdebff66447a2ecc33abe80490823209}
+      \strng{authorfullhash}{ff79a03c159d9858e9715a9ba15ffe27}
+      \strng{nameabibnamehash}{a4021fa953a5bdfcfa24d6e4f0debd5c}
+      \strng{nameanamehash}{fdebff66447a2ecc33abe80490823209}
+      \strng{nameafullhash}{ff79a03c159d9858e9715a9ba15ffe27}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Machine Intelligence}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{number}{3}
+      \field{title}{Learning nonlinear operators via {DeepONet} based on the universal approximation theorem of operators}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{218\bibrangedash 229}
+      \range{pages}{12}
+      \keyw{lu2021learning}
+    \endentry
+    \entry{FNO}{article}{}
+      \name{author}{7}{}{%
+        {{hash=009036050bf23abe561429f6eaa0b018}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zongyi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d3715d69863d59245589f244c5866bd4}{%
+           family={Kovachki},
+           familyi={K\bibinitperiod},
+           given={Nikola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3648b51d63e1ae389e46f87296d4c89a}{%
+           family={Azizzadenesheli},
+           familyi={A\bibinitperiod},
+           given={Kamyar},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9caea1a7b561311e5146f4c7f740496c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Burigede},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1e523aae18c868f77439b35add494ff9}{%
+           family={Bhattacharya},
+           familyi={B\bibinitperiod},
+           given={Kaushik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9fdd1b883dec513483f9ee5c99b7e251}{%
+           family={Stuart},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d759f492243bb3ad5b49139f1d2f99c4}{%
+           family={Anandkumar},
+           familyi={A\bibinitperiod},
+           given={Animashree},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{namea}{7}{}{%
+        {{hash=009036050bf23abe561429f6eaa0b018}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zongyi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d3715d69863d59245589f244c5866bd4}{%
+           family={Kovachki},
+           familyi={K\bibinitperiod},
+           given={Nikola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3648b51d63e1ae389e46f87296d4c89a}{%
+           family={Azizzadenesheli},
+           familyi={A\bibinitperiod},
+           given={Kamyar},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9caea1a7b561311e5146f4c7f740496c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Burigede},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1e523aae18c868f77439b35add494ff9}{%
+           family={Bhattacharya},
+           familyi={B\bibinitperiod},
+           given={Kaushik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9fdd1b883dec513483f9ee5c99b7e251}{%
+           family={Stuart},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d759f492243bb3ad5b49139f1d2f99c4}{%
+           family={Anandkumar},
+           familyi={A\bibinitperiod},
+           given={Animashree},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{edf93f47ab09a8c56b86e9ad2e628607}
+      \strng{fullhash}{a5f865a17a67c02cc23909064e18b335}
+      \strng{bibnamehash}{b16598cfd68a21333b13de477a9f94a7}
+      \strng{authorbibnamehash}{b16598cfd68a21333b13de477a9f94a7}
+      \strng{authornamehash}{edf93f47ab09a8c56b86e9ad2e628607}
+      \strng{authorfullhash}{a5f865a17a67c02cc23909064e18b335}
+      \strng{nameabibnamehash}{b16598cfd68a21333b13de477a9f94a7}
+      \strng{nameanamehash}{edf93f47ab09a8c56b86e9ad2e628607}
+      \strng{nameafullhash}{a5f865a17a67c02cc23909064e18b335}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{10}
+      \field{title}{Fourier Neural Operator for Parametric Partial Differential Equations}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \keyw{FNO}
+    \endentry
+    \entry{NEURAL-NETWORK-BASED-APPROXIMATIONS1994}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1b1dcf6ac853801ea35c0fca50e11e1c}{%
+           family={Dissanayake},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi W.\bibnamedelimi M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9bf6dabb0d3f1b0d4802cabe62c9873f}{%
+           family={Phan-Thien},
+           familyi={P\bibinithyphendelim T\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=1b1dcf6ac853801ea35c0fca50e11e1c}{%
+           family={Dissanayake},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi W.\bibnamedelimi M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9bf6dabb0d3f1b0d4802cabe62c9873f}{%
+           family={Phan-Thien},
+           familyi={P\bibinithyphendelim T\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{fd3b57a9d47047ff19881f6e13a5def3}
+      \strng{fullhash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{bibnamehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{authorbibnamehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{authornamehash}{fd3b57a9d47047ff19881f6e13a5def3}
+      \strng{authorfullhash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{nameabibnamehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{nameanamehash}{fd3b57a9d47047ff19881f6e13a5def3}
+      \strng{nameafullhash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract A numerical method, based on neural-network-based functions, for solving partial differential equations is reported in the paper. Using a ‘universal approximator’ based on a neural network and point collocation, the numerical problem of solving the partial differential equation is transformed to an unconstrained minimization problem. The method is extremely easy to implement and is suitable for obtaining an approximate solution in a short period of time. The technique is illustrated with the aid of two numerical examples.}
+      \field{journaltitle}{Communications in Numerical Methods in Engineering}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{number}{3}
+      \field{title}{Neural-network-based approximations for solving partial differential equations}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{10}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{pages}{195\bibrangedash 201}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1002/cnm.1640100303
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/cnm.1640100303
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.1640100303
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.1640100303
+      \endverb
+      \keyw{NEURAL-NETWORK-BASED-APPROXIMATIONS1994}
+    \endentry
+    \entry{RAISSI2019686}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a3194cb4f8e3959e569236521aa2fd86}{%
+           family={Raissi},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c2e8423b7b49343a85abf9af92ee2a82}{%
+           family={Perdikaris},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1c2f5930e36485e8d38a87746769fdcc}{%
+           family={Karniadakis},
+           familyi={K\bibinitperiod},
+           given={G.E.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=a3194cb4f8e3959e569236521aa2fd86}{%
+           family={Raissi},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c2e8423b7b49343a85abf9af92ee2a82}{%
+           family={Perdikaris},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1c2f5930e36485e8d38a87746769fdcc}{%
+           family={Karniadakis},
+           familyi={K\bibinitperiod},
+           given={G.E.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{38cf3149596a29a18976b23d267bacc7}
+      \strng{fullhash}{a17a0649dc8bad70026488d4ea37c508}
+      \strng{bibnamehash}{a17a0649dc8bad70026488d4ea37c508}
+      \strng{authorbibnamehash}{a17a0649dc8bad70026488d4ea37c508}
+      \strng{authornamehash}{38cf3149596a29a18976b23d267bacc7}
+      \strng{authorfullhash}{a17a0649dc8bad70026488d4ea37c508}
+      \strng{nameabibnamehash}{a17a0649dc8bad70026488d4ea37c508}
+      \strng{nameanamehash}{38cf3149596a29a18976b23d267bacc7}
+      \strng{nameafullhash}{a17a0649dc8bad70026488d4ea37c508}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce physics-informed neural networks – neural networks that are trained to solve supervised learning tasks while respecting any given laws of physics described by general nonlinear partial differential equations. In this work, we present our developments in the context of solving two main classes of problems: data-driven solution and data-driven discovery of partial differential equations. Depending on the nature and arrangement of the available data, we devise two distinct types of algorithms, namely continuous time and discrete time models. The first type of models forms a new family of data-efficient spatio-temporal function approximators, while the latter type allows the use of arbitrarily accurate implicit Runge–Kutta time stepping schemes with unlimited number of stages. The effectiveness of the proposed framework is demonstrated through a collection of classical problems in fluids, quantum mechanics, reaction–diffusion systems, and the propagation of nonlinear shallow-water waves.}
+      \field{issn}{0021-9991}
+      \field{journaltitle}{Journal of Computational Physics}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{378}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{686\bibrangedash 707}
+      \range{pages}{22}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jcp.2018.10.045
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021999118307125
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021999118307125
+      \endverb
+      \keyw{Data-driven scientific computing,Machine learning,Predictive modeling,Runge–Kutta methods,Nonlinear dynamics}
+    \endentry
+    \entry{ZANG_WAN}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fe84466800cbc60fb655a7004e637f17}{%
+           family={Zang},
+           familyi={Z\bibinitperiod},
+           given={Yaohua},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=081fe0885f26aa644af31b7c2f24252a}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4ec269ceee7517e9dfc46fd488346d36}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Xiaojing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ef31a511ca7f096492703de9b5e3d227}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Haomin},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=fe84466800cbc60fb655a7004e637f17}{%
+           family={Zang},
+           familyi={Z\bibinitperiod},
+           given={Yaohua},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=081fe0885f26aa644af31b7c2f24252a}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4ec269ceee7517e9dfc46fd488346d36}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Xiaojing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ef31a511ca7f096492703de9b5e3d227}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Haomin},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{cd489963c9c2ba70fb4de4bb076f9060}
+      \strng{fullhash}{d9548389ffabc66d90493db03ce19c87}
+      \strng{bibnamehash}{3ef9d8ecd7ff4876bbc9eb6857c89499}
+      \strng{authorbibnamehash}{3ef9d8ecd7ff4876bbc9eb6857c89499}
+      \strng{authornamehash}{cd489963c9c2ba70fb4de4bb076f9060}
+      \strng{authorfullhash}{d9548389ffabc66d90493db03ce19c87}
+      \strng{nameabibnamehash}{3ef9d8ecd7ff4876bbc9eb6857c89499}
+      \strng{nameanamehash}{cd489963c9c2ba70fb4de4bb076f9060}
+      \strng{nameafullhash}{d9548389ffabc66d90493db03ce19c87}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving general high-dimensional partial differential equations (PDE) is a long-standing challenge in numerical mathematics. In this paper, we propose a novel approach to solve high-dimensional linear and nonlinear PDEs defined on arbitrary domains by leveraging their weak formulations. We convert the problem of finding the weak solution of PDEs into an operator norm minimization problem induced from the weak formulation. The weak solution and the test function in the weak formulation are then parameterized as the primal and adversarial networks respectively, which are alternately updated to approximate the optimal network parameter setting. Our approach, termed as the weak adversarial network (WAN), is fast, stable, and completely mesh-free, which is particularly suitable for high-dimensional PDEs defined on irregular domains where the classical numerical methods based on finite differences and finite elements suffer the issues of slow computation, instability and the curse of dimensionality. We apply our method to a variety of test problems with high-dimensional PDEs to demonstrate its promising performance.}
+      \field{issn}{0021-9991}
+      \field{journaltitle}{Journal of Computational Physics}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Weak adversarial networks for high-dimensional partial differential equations}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{411}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{109409}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jcp.2020.109409
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021999120301832
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021999120301832
+      \endverb
+      \keyw{High dimensional PDE,Deep neural network,Adversarial network,Weak solution}
+    \endentry
+    \entry{DRM}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2fc8687a55a883e3ecdea3fa9b600466}{%
+           family={Ee},
+           familyi={E\bibinitperiod},
+           given={Weinan},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fc6283cba40337baef29625ca7f4d236}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=2fc8687a55a883e3ecdea3fa9b600466}{%
+           family={Ee},
+           familyi={E\bibinitperiod},
+           given={Weinan},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fc6283cba40337baef29625ca7f4d236}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{781d733b920a538944526a10f272852b}
+      \strng{fullhash}{60ad8d525a0a07dd4fedf55288ead91e}
+      \strng{bibnamehash}{60ad8d525a0a07dd4fedf55288ead91e}
+      \strng{authorbibnamehash}{60ad8d525a0a07dd4fedf55288ead91e}
+      \strng{authornamehash}{781d733b920a538944526a10f272852b}
+      \strng{authorfullhash}{60ad8d525a0a07dd4fedf55288ead91e}
+      \strng{nameabibnamehash}{60ad8d525a0a07dd4fedf55288ead91e}
+      \strng{nameanamehash}{781d733b920a538944526a10f272852b}
+      \strng{nameafullhash}{60ad8d525a0a07dd4fedf55288ead91e}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Mathematics and Statistics}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{09}
+      \field{title}{The Deep Ritz Method: A Deep Learning-Based Numerical Algorithm for Solving Variational Problems}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1007/s40304-018-0127-z
+      \endverb
+      \keyw{DRM}
+    \endentry
+    \entry{pmlr-v80-long18a}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=060ef44725b0cfa8e3806ccf3758d394}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Zichao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e1871b5490a7d6c7611d9e577b5868fc}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yiping},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=cf8de8f95c54ecbf85e3e1aceb49fa9a}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Xianzhong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=a76f5b3e40110ff20d825c7dab6f3102}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=dc770b9b0d58d3008bbb3906497d898c}{%
+           family={Dy},
+           familyi={D\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=112eb0b147c4a7f674d015a86e5dea70}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=060ef44725b0cfa8e3806ccf3758d394}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Zichao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e1871b5490a7d6c7611d9e577b5868fc}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yiping},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=cf8de8f95c54ecbf85e3e1aceb49fa9a}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Xianzhong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=a76f5b3e40110ff20d825c7dab6f3102}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{a2d507f93e27ee8328e1482aeb22fedc}
+      \strng{fullhash}{426499dbe18f41778e523d6035a106f6}
+      \strng{bibnamehash}{910c97ec905aa4279d39d9f1a03a4fe7}
+      \strng{authorbibnamehash}{910c97ec905aa4279d39d9f1a03a4fe7}
+      \strng{authornamehash}{a2d507f93e27ee8328e1482aeb22fedc}
+      \strng{authorfullhash}{426499dbe18f41778e523d6035a106f6}
+      \strng{editorbibnamehash}{83be554d58af5be1788b5c3616f0e92a}
+      \strng{editornamehash}{ab3271cf6295d85f584c022b15ef8faa}
+      \strng{editorfullhash}{83be554d58af5be1788b5c3616f0e92a}
+      \strng{nameabibnamehash}{910c97ec905aa4279d39d9f1a03a4fe7}
+      \strng{nameanamehash}{a2d507f93e27ee8328e1482aeb22fedc}
+      \strng{nameafullhash}{426499dbe18f41778e523d6035a106f6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Partial differential equations (PDEs) play a prominent role in many disciplines of science and engineering. PDEs are commonly derived based on empirical observations. However, with the rapid development of sensors, computational power, and data storage in the past decade, huge quantities of data can be easily collected and efficiently stored. Such vast quantity of data offers new opportunities for data-driven discovery of physical laws. Inspired by the latest development of neural network designs in deep learning, we propose a new feed-forward deep network, called PDE-Net, to fulfill two objectives at the same time: to accurately predict dynamics of complex systems and to uncover the underlying hidden PDE models. Comparing with existing approaches, our approach has the most flexibility by learning both differential operators and the nonlinear response function of the underlying PDE model. A special feature of the proposed PDE-Net is that all filters are properly constrained, which enables us to easily identify the governing PDE models while still maintaining the expressive and predictive power of the network. These constrains are carefully designed by fully exploiting the relation between the orders of differential operators and the orders of sum rules of filters (an important concept originated from wavelet theory). Numerical experiments show that the PDE-Net has the potential to uncover the hidden PDE of the observed dynamics, and predict the dynamical behavior for a relatively long time, even in a noisy environment.}
+      \field{booktitle}{Proceedings of the 35th International Conference on Machine Learning}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{10--15 Jul}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{{PDE}-Net: Learning {PDE}s from Data}
+      \field{usera}{C}
+      \field{userc}{english}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{80}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{3208\bibrangedash 3216}
+      \range{pages}{9}
+      \verb{file}
+      \verb http://proceedings.mlr.press/v80/long18a/long18a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v80/long18a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v80/long18a.html
+      \endverb
+      \keyw{pmlr-v80-long18a}
+    \endentry
+    \entry{Wandel2021Learning}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d81571b326b445900d0ffd466c2fa9a3}{%
+           family={Wandel},
+           familyi={W\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3fac57dfc6c43c66bebe18d4ff8873ad}{%
+           family={Weinmann},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=83ee01374e4d644d739e4382e249dcf8}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=d81571b326b445900d0ffd466c2fa9a3}{%
+           family={Wandel},
+           familyi={W\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3fac57dfc6c43c66bebe18d4ff8873ad}{%
+           family={Weinmann},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=83ee01374e4d644d739e4382e249dcf8}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{11f611123af0bb2ee5b7da6019ed2a77}
+      \strng{fullhash}{1ee50f68d173fad29ea1f14884d67dab}
+      \strng{bibnamehash}{1ee50f68d173fad29ea1f14884d67dab}
+      \strng{authorbibnamehash}{1ee50f68d173fad29ea1f14884d67dab}
+      \strng{authornamehash}{11f611123af0bb2ee5b7da6019ed2a77}
+      \strng{authorfullhash}{1ee50f68d173fad29ea1f14884d67dab}
+      \strng{nameabibnamehash}{1ee50f68d173fad29ea1f14884d67dab}
+      \strng{nameanamehash}{11f611123af0bb2ee5b7da6019ed2a77}
+      \strng{nameafullhash}{1ee50f68d173fad29ea1f14884d67dab}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://arxiv.org/abs/2006.08762}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{series}{Ninth International Conference on Learning Representations}
+      \field{title}{Learning Incompressible Fluid Dynamics from Scratch - Towards Fast, Differentiable Fluid Models that Generalize}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \keyw{Wandel2021Learning}
+    \endentry
+    \entry{learnpdefrom_gnn}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9135114f069fd571b50dc0f1fc0bdb63}{%
+           family={Iakovlev},
+           familyi={I\bibinitperiod},
+           given={Valerii},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cdaf9b82010acfd23f1aea226a05d9b9}{%
+           family={Heinonen},
+           familyi={H\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=00ceeb8f8e679175405298df1cdc9349}{%
+           family={Lähdesmäki},
+           familyi={L\bibinitperiod},
+           given={Harri},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=9135114f069fd571b50dc0f1fc0bdb63}{%
+           family={Iakovlev},
+           familyi={I\bibinitperiod},
+           given={Valerii},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cdaf9b82010acfd23f1aea226a05d9b9}{%
+           family={Heinonen},
+           familyi={H\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=00ceeb8f8e679175405298df1cdc9349}{%
+           family={Lähdesmäki},
+           familyi={L\bibinitperiod},
+           given={Harri},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d6dfad7ca0ea9bed53d52c476232c283}
+      \strng{fullhash}{d984d6df998cc3e62edaf27a3a990d0f}
+      \strng{bibnamehash}{d984d6df998cc3e62edaf27a3a990d0f}
+      \strng{authorbibnamehash}{d984d6df998cc3e62edaf27a3a990d0f}
+      \strng{authornamehash}{d6dfad7ca0ea9bed53d52c476232c283}
+      \strng{authorfullhash}{d984d6df998cc3e62edaf27a3a990d0f}
+      \strng{nameabibnamehash}{d984d6df998cc3e62edaf27a3a990d0f}
+      \strng{nameanamehash}{d6dfad7ca0ea9bed53d52c476232c283}
+      \strng{nameafullhash}{d984d6df998cc3e62edaf27a3a990d0f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{06}
+      \field{title}{Learning continuous-time PDEs from sparse data with graph neural networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \keyw{learnpdefrom_gnn}
+    \endentry
+    \entry{GAO2022114502}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1f6d8f8c54b2a4de971e93ff71ef61c6}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=51cb8fb0876ff30d43772de4f3c25a1e}{%
+           family={Zahr},
+           familyi={Z\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=181adb2409340bdc74df7ba3e5809e2f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jian-Xun},
+           giveni={J\bibinithyphendelim X\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=1f6d8f8c54b2a4de971e93ff71ef61c6}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=51cb8fb0876ff30d43772de4f3c25a1e}{%
+           family={Zahr},
+           familyi={Z\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=181adb2409340bdc74df7ba3e5809e2f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jian-Xun},
+           giveni={J\bibinithyphendelim X\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e1538c625049ffad0dee2854fdf4cc53}
+      \strng{fullhash}{64811fe906f8132f060fd2017426779a}
+      \strng{bibnamehash}{64811fe906f8132f060fd2017426779a}
+      \strng{authorbibnamehash}{64811fe906f8132f060fd2017426779a}
+      \strng{authornamehash}{e1538c625049ffad0dee2854fdf4cc53}
+      \strng{authorfullhash}{64811fe906f8132f060fd2017426779a}
+      \strng{nameabibnamehash}{64811fe906f8132f060fd2017426779a}
+      \strng{nameanamehash}{e1538c625049ffad0dee2854fdf4cc53}
+      \strng{nameafullhash}{64811fe906f8132f060fd2017426779a}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0045-7825}
+      \field{journaltitle}{Computer Methods in Applied Mechanics and Engineering}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Physics-informed graph neural Galerkin networks: A unified framework for solving PDE-governed forward and inverse problems}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{390}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{114502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cma.2021.114502
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0045782521007076
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0045782521007076
+      \endverb
+      \keyw{Partial differential equations,Inverse problem,Physics-informed machine learning,Graph convolutional neural networks,Mechanics}
+    \endentry
+    \entry{gao_phygeonet:_2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1f6d8f8c54b2a4de971e93ff71ef61c6}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3619892fbd32e4f6752b25dafce591b8}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Luning},
+           giveni={L\bibinitperiod}}}%
+        {{hash=181adb2409340bdc74df7ba3e5809e2f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jian-Xun},
+           giveni={J\bibinithyphendelim X\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=1f6d8f8c54b2a4de971e93ff71ef61c6}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3619892fbd32e4f6752b25dafce591b8}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Luning},
+           giveni={L\bibinitperiod}}}%
+        {{hash=181adb2409340bdc74df7ba3e5809e2f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jian-Xun},
+           giveni={J\bibinithyphendelim X\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e1538c625049ffad0dee2854fdf4cc53}
+      \strng{fullhash}{7d247ab606d12100def4d5f5e3df2c19}
+      \strng{bibnamehash}{7d247ab606d12100def4d5f5e3df2c19}
+      \strng{authorbibnamehash}{7d247ab606d12100def4d5f5e3df2c19}
+      \strng{authornamehash}{e1538c625049ffad0dee2854fdf4cc53}
+      \strng{authorfullhash}{7d247ab606d12100def4d5f5e3df2c19}
+      \strng{nameabibnamehash}{7d247ab606d12100def4d5f5e3df2c19}
+      \strng{nameanamehash}{e1538c625049ffad0dee2854fdf4cc53}
+      \strng{nameafullhash}{7d247ab606d12100def4d5f5e3df2c19}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{00219991}
+      \field{journaltitle}{Journal of Computational Physics}
+      \field{month}{12}
+      \field{shorttitle}{{PhyGeoNet}}
+      \field{title}{{PhyGeoNet}: {Physics}-informed geometry-adaptive convolutional neural networks for solving {Parameterized} {Steady}-{State} {PDEs} on irregular domain}
+      \field{urlday}{4}
+      \field{urlmonth}{1}
+      \field{urlyear}{2021}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{110079}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jcp.2020.110079
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0021999120308536
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0021999120308536
+      \endverb
+      \keyw{gao_phygeonet:_2020}
+    \endentry
+    \entry{https://doi.org/10.1002/pamm.202200306}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5d517075ca057f1b4e787c9955909dd7}{%
+           family={Gulakala},
+           familyi={G\bibinitperiod},
+           given={Rutwik},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d0cb0359b76407a7f5823637d69075a4}{%
+           family={Markert},
+           familyi={M\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+        {{hash=53ec9a1b493dcfe084ab0fe0852c36e9}{%
+           family={Stoffel},
+           familyi={S\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=5d517075ca057f1b4e787c9955909dd7}{%
+           family={Gulakala},
+           familyi={G\bibinitperiod},
+           given={Rutwik},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d0cb0359b76407a7f5823637d69075a4}{%
+           family={Markert},
+           familyi={M\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+        {{hash=53ec9a1b493dcfe084ab0fe0852c36e9}{%
+           family={Stoffel},
+           familyi={S\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a63d9212bbee9e48f0a992fdcee46090}
+      \strng{fullhash}{dc292f04c8dc68785c15a332f2fcb49e}
+      \strng{bibnamehash}{dc292f04c8dc68785c15a332f2fcb49e}
+      \strng{authorbibnamehash}{dc292f04c8dc68785c15a332f2fcb49e}
+      \strng{authornamehash}{a63d9212bbee9e48f0a992fdcee46090}
+      \strng{authorfullhash}{dc292f04c8dc68785c15a332f2fcb49e}
+      \strng{nameabibnamehash}{dc292f04c8dc68785c15a332f2fcb49e}
+      \strng{nameanamehash}{a63d9212bbee9e48f0a992fdcee46090}
+      \strng{nameafullhash}{dc292f04c8dc68785c15a332f2fcb49e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PAMM}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{number}{1}
+      \field{title}{Graph Neural Network enhanced Finite Element modelling}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{22}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{e202200306}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1002/pamm.202200306
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/pamm.202200306
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.202200306
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.202200306
+      \endverb
+      \keyw{https://doi.org/10.1002/pamm.202200306}
+    \endentry
+    \entry{pmlr-v119-de-avila-belbute-peres20a}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c469aee67f222c4a064d2219b60889c5}{%
+           family={De\bibnamedelima Avila\bibnamedelima Belbute-Peres},
+           familyi={D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinithyphendelim P\bibinitperiod},
+           given={Filipe},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7e813dcb64a5a43d7985d176063bf5ad}{%
+           family={Economon},
+           familyi={E\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b342ec34892f5c1daa80eb7dea5244b5}{%
+           family={Kolter},
+           familyi={K\bibinitperiod},
+           given={Zico},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=2d366eea8a8bd912dc8499cb3200ebd2}{%
+           family={III},
+           familyi={I\bibinitperiod},
+           given={Hal\bibnamedelima Daumé},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d77c73a14b0f048484c1d34aba3071d4}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Aarti},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=c469aee67f222c4a064d2219b60889c5}{%
+           family={De\bibnamedelima Avila\bibnamedelima Belbute-Peres},
+           familyi={D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinithyphendelim P\bibinitperiod},
+           given={Filipe},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7e813dcb64a5a43d7985d176063bf5ad}{%
+           family={Economon},
+           familyi={E\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b342ec34892f5c1daa80eb7dea5244b5}{%
+           family={Kolter},
+           familyi={K\bibinitperiod},
+           given={Zico},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{9e307b99a46add937a24c4cbbc57f94e}
+      \strng{fullhash}{8e603cad605c273465704196ef6886c6}
+      \strng{bibnamehash}{8e603cad605c273465704196ef6886c6}
+      \strng{authorbibnamehash}{8e603cad605c273465704196ef6886c6}
+      \strng{authornamehash}{9e307b99a46add937a24c4cbbc57f94e}
+      \strng{authorfullhash}{8e603cad605c273465704196ef6886c6}
+      \strng{editorbibnamehash}{6a2c7e018f72565d1676eee4dc69f8f4}
+      \strng{editornamehash}{433b4a43f514dead2308852871ae16f8}
+      \strng{editorfullhash}{6a2c7e018f72565d1676eee4dc69f8f4}
+      \strng{nameabibnamehash}{8e603cad605c273465704196ef6886c6}
+      \strng{nameanamehash}{9e307b99a46add937a24c4cbbc57f94e}
+      \strng{nameafullhash}{8e603cad605c273465704196ef6886c6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving large complex partial differential equations (PDEs), such as those that arise in computational fluid dynamics (CFD), is a computationally expensive process. This has motivated the use of deep learning approaches to approximate the PDE solutions, yet the simulation results predicted from these approaches typically do not generalize well to truly novel scenarios. In this work, we develop a hybrid (graph) neural network that combines a traditional graph convolutional network with an embedded differentiable fluid dynamics simulator inside the network itself. By combining an actual CFD simulator (run on a much coarser resolution representation of the problem) with the graph network, we show that we can both generalize well to new situations and benefit from the substantial speedup of neural network CFD predictions, while also substantially outperforming the coarse CFD simulation alone.}
+      \field{booktitle}{Proceedings of the 37th International Conference on Machine Learning}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{13--18 Jul}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{Combining Differentiable {PDE} Solvers and Graph Neural Networks for Fluid Flow Prediction}
+      \field{usera}{C}
+      \field{userc}{english}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{119}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{2402\bibrangedash 2411}
+      \range{pages}{10}
+      \verb{file}
+      \verb http://proceedings.mlr.press/v119/de-avila-belbute-peres20a/de-avila-belbute-peres20a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v119/de-avila-belbute-peres20a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v119/de-avila-belbute-peres20a.html
+      \endverb
+      \keyw{pmlr-v119-de-avila-belbute-peres20a}
+    \endentry
+    \entry{YAO2020112892}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a87e5917e5d7bdf945200105fd37c130}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Houpu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d21fe42bfe6cbac56a8ba6fa0c99084b}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=54458c05ce25e09c678d47ff1917e543}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yongming},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=a87e5917e5d7bdf945200105fd37c130}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Houpu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d21fe42bfe6cbac56a8ba6fa0c99084b}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=54458c05ce25e09c678d47ff1917e543}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yongming},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{c0fa24ea08c2c2cfe3b18e467cc3a18b}
+      \strng{fullhash}{ca38683b6c6605a1a9011dd5bcda24d7}
+      \strng{bibnamehash}{ca38683b6c6605a1a9011dd5bcda24d7}
+      \strng{authorbibnamehash}{ca38683b6c6605a1a9011dd5bcda24d7}
+      \strng{authornamehash}{c0fa24ea08c2c2cfe3b18e467cc3a18b}
+      \strng{authorfullhash}{ca38683b6c6605a1a9011dd5bcda24d7}
+      \strng{nameabibnamehash}{ca38683b6c6605a1a9011dd5bcda24d7}
+      \strng{nameanamehash}{c0fa24ea08c2c2cfe3b18e467cc3a18b}
+      \strng{nameafullhash}{ca38683b6c6605a1a9011dd5bcda24d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0045-7825}
+      \field{journaltitle}{Computer Methods in Applied Mechanics and Engineering}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{FEA-Net: A physics-guided data-driven model for efficient mechanical response prediction}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{363}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{112892}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cma.2020.112892
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0045782520300748
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0045782520300748
+      \endverb
+      \keyw{Physics-guided learning,Data-driven model,Convolutional neural networks,Finite Element Analysis}
+    \endentry
+    \entry{20130601}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b25100f7725dd877d76284aa79256900}{%
+           family={舒其望},
+           familyi={舒\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=b25100f7725dd877d76284aa79256900}{%
+           family={舒其望},
+           familyi={舒\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{b25100f7725dd877d76284aa79256900}
+      \strng{fullhash}{b25100f7725dd877d76284aa79256900}
+      \strng{bibnamehash}{b25100f7725dd877d76284aa79256900}
+      \strng{authorbibnamehash}{b25100f7725dd877d76284aa79256900}
+      \strng{authornamehash}{b25100f7725dd877d76284aa79256900}
+      \strng{authorfullhash}{b25100f7725dd877d76284aa79256900}
+      \strng{nameabibnamehash}{b25100f7725dd877d76284aa79256900}
+      \strng{nameanamehash}{b25100f7725dd877d76284aa79256900}
+      \strng{nameafullhash}{b25100f7725dd877d76284aa79256900}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{力学进展}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{number}{20130601}
+      \field{title}{计算流体力学中的间断Galerkin方法述评}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{volume}{43}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{541}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.6052/1000-0992-13-059
+      \endverb
+      \verb{urlraw}
+      \verb https://lxjz.cstam.org.cn/article/doi/10.6052/1000-0992-13-059
+      \endverb
+      \verb{url}
+      \verb https://lxjz.cstam.org.cn/article/doi/10.6052/1000-0992-13-059
+      \endverb
+      \keyw{间断Galerkin(DG)方法}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

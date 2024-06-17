@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'zjuthesis.blg'
+[40] biber:340> INFO - === 一 3月  4, 2024, 12:39:23
+[49] Biber.pm:418> INFO - Reading 'zjuthesis.bcf'
+[91] Biber.pm:972> INFO - Found 17 citekeys in bib section 0
+[97] Biber.pm:4383> INFO - Processing section 0
+[104] Biber.pm:4574> INFO - Looking for bibtex file 'body/reference.bib' for section 0
+[106] bibtex.pm:1713> INFO - LaTeX decoding ...
+[118] bibtex.pm:1518> INFO - Found BibTeX data source 'body/reference.bib'
+[274] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[274] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[274] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[274] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[283] bbl.pm:654> INFO - Writing 'zjuthesis.bbl' with encoding 'UTF-8'
+[297] bbl.pm:757> INFO - Output to zjuthesis.bbl
+[297] Biber.pm:130> WARN - legacy month field 'jan' in entry '10.5555/3291125.3291150' is not an integer - this will probably not sort properly.
+[297] Biber.pm:130> WARN - legacy month field '10--15 Jul' in entry 'pmlr-v80-long18a' is not an integer - this will probably not sort properly.
+[297] Biber.pm:130> WARN - legacy month field '13--18 Jul' in entry 'pmlr-v119-de-avila-belbute-peres20a' is not an integer - this will probably not sort properly.
+[297] Biber.pm:132> INFO - WARNINGS: 3

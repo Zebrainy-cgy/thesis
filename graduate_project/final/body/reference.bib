@@ -1,0 +1,289 @@
+@www{zjuthesisrules,
+    title = {浙江大学本科生毕业论文（设计）编写规则},
+    author = {浙江大学本科生院},
+    year = {2018},
+    url = {http://bksy.zju.edu.cn/attachments/2018-01/01-1517384518-1149149.pdf},
+}
+@www{tikz,
+    title = {tikz宏包},
+    author = {Till Tantau},
+    year = {2018},
+    url = {https://sourceforge.net/projects/pgf/},
+}
+@www{zjuthesis,
+    title = {浙江大学毕业设计/论文模板},
+    author = {王子轩},
+    year = {2019},
+    url = {https://github.com/TheNetAdmin/zjuthesis},
+}
+@www{zjugradthesisrules,
+    title = {浙江大学研究生学位论文编写规则},
+    author = {浙江大学研究生院},
+    year = {2008},
+    url = {http://grs.zju.edu.cn/redir.php?catalog_id=10038&object_id=12877},
+}
+
+@article{pinn,
+author = {Raissi, Maziar},
+title = {Deep hidden physics models: deep learning of nonlinear partial differential equations},
+year = {2018},
+issue_date = {January 2018},
+publisher = {JMLR.org},
+volume = {19},
+number = {1},
+issn = {1532-4435},
+abstract = {We put forth a deep learning approach for discovering nonlinear partial differential equations from scattered and potentially noisy observations in space and time. Specifically, we approximate the unknown solution as well as the nonlinear dynamics by two deep neural networks. The first network acts as a prior on the unknown solution and essentially enables us to avoid numerical differentiations which are inherently ill-conditioned and unstable. The second network represents the nonlinear dynamics and helps us distill the mechanisms that govern the evolution of a given spatiotemporal data-set. We test the effectiveness of our approach for several benchmark problems spanning a number of scientific domains and demonstrate how the proposed framework can help us accurately learn the underlying dynamics and forecast future states of the system. In particular, we study the Burgers', Korteweg-de Vries (KdV), Kuramoto-Sivashinsky, nonlinear Schr\"{o}dinger, and Navier-Stokes equations.},
+journal = {J. Mach. Learn. Res.},
+month = {jan},
+pages = {932–955},
+numpages = {24},
+keywords = {big data, data-driven scientific discovery, nonlinear dynamics, physics informed machine learning, predictive modeling, systems identification}
+}
+
+@article{RAISSI2019686,
+title = {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
+journal = {Journal of Computational Physics},
+volume = {378},
+pages = {686-707},
+year = {2019},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2018.10.045},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999118307125},
+author = {M. Raissi and P. Perdikaris and G.E. Karniadakis},
+keywords = {Data-driven scientific computing, Machine learning, Predictive modeling, Runge–Kutta methods, Nonlinear dynamics},
+abstract = {We introduce physics-informed neural networks – neural networks that are trained to solve supervised learning tasks while respecting any given laws of physics described by general nonlinear partial differential equations. In this work, we present our developments in the context of solving two main classes of problems: data-driven solution and data-driven discovery of partial differential equations. Depending on the nature and arrangement of the available data, we devise two distinct types of algorithms, namely continuous time and discrete time models. The first type of models forms a new family of data-efficient spatio-temporal function approximators, while the latter type allows the use of arbitrarily accurate implicit Runge–Kutta time stepping schemes with unlimited number of stages. The effectiveness of the proposed framework is demonstrated through a collection of classical problems in fluids, quantum mechanics, reaction–diffusion systems, and the propagation of nonlinear shallow-water waves.}
+}
+
+@article{data-driven_discovery_of_pde ,
+author = {Samuel H. Rudy  and Steven L. Brunton  and Joshua L. Proctor  and J. Nathan Kutz },
+title = {Data-driven discovery of partial differential equations},
+journal = {Science Advances},
+volume = {3},
+number = {4},
+pages = {e1602614},
+year = {2017},
+doi = {10.1126/sciadv.1602614},
+URL = {https://www.science.org/doi/abs/10.1126/sciadv.1602614},
+eprint = {https://www.science.org/doi/pdf/10.1126/sciadv.1602614},
+abstract = {Researchers propose sparse regression for identifying governing partial differential equations for spatiotemporal systems. We propose a sparse regression method capable of discovering the governing partial differential equation(s) of a given system by time series measurements in the spatial domain. The regression framework relies on sparsity-promoting techniques to select the nonlinear and partial derivative terms of the governing equations that most accurately represent the data, bypassing a combinatorially large search through all possible candidate models. The method balances model complexity and regression accuracy by selecting a parsimonious model via Pareto analysis. Time series measurements can be made in an Eulerian framework, where the sensors are fixed spatially, or in a Lagrangian framework, where the sensors move with the dynamics. The method is computationally efficient, robust, and demonstrated to work on a variety of canonical problems spanning a number of scientific domains including Navier-Stokes, the quantum harmonic oscillator, and the diffusion equation. Moreover, the method is capable of disambiguating between potentially nonunique dynamical terms by using multiple time series taken with different initial data. Thus, for a traveling wave, the method can distinguish between a linear wave equation and the Korteweg–de Vries equation, for instance. The method provides a promising new technique for discovering governing equations and physical laws in parameterized spatiotemporal systems, where first-principles derivations are intractable.}}
+
+@article{ZANG_WAN,
+title = {Weak adversarial networks for high-dimensional partial differential equations},
+journal = {Journal of Computational Physics},
+volume = {411},
+pages = {109409},
+year = {2020},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2020.109409},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999120301832},
+author = {Yaohua Zang and Gang Bao and Xiaojing Ye and Haomin Zhou},
+keywords = {High dimensional PDE, Deep neural network, Adversarial network, Weak solution},
+abstract = {Solving general high-dimensional partial differential equations (PDE) is a long-standing challenge in numerical mathematics. In this paper, we propose a novel approach to solve high-dimensional linear and nonlinear PDEs defined on arbitrary domains by leveraging their weak formulations. We convert the problem of finding the weak solution of PDEs into an operator norm minimization problem induced from the weak formulation. The weak solution and the test function in the weak formulation are then parameterized as the primal and adversarial networks respectively, which are alternately updated to approximate the optimal network parameter setting. Our approach, termed as the weak adversarial network (WAN), is fast, stable, and completely mesh-free, which is particularly suitable for high-dimensional PDEs defined on irregular domains where the classical numerical methods based on finite differences and finite elements suffer the issues of slow computation, instability and the curse of dimensionality. We apply our method to a variety of test problems with high-dimensional PDEs to demonstrate its promising performance.}
+}
+
+@article{DRM,
+author = {Ee, Weinan and Yu, Bing},
+year = {2017},
+month = {09},
+pages = {},
+title = {The Deep Ritz Method: A Deep Learning-Based Numerical Algorithm for Solving Variational Problems},
+volume = {6},
+journal = {Communications in Mathematics and Statistics},
+doi = {10.1007/s40304-018-0127-z}
+}
+
+@article{FNO,
+author = {Li, Zongyi and Kovachki, Nikola and Azizzadenesheli, Kamyar and Liu, Burigede and Bhattacharya, Kaushik and Stuart, Andrew and Anandkumar, Animashree},
+year = {2020},
+month = {10},
+pages = {},
+title = {Fourier Neural Operator for Parametric Partial Differential Equations}
+}
+
+@article{lu2021learning,
+  title   = {Learning nonlinear operators via {DeepONet} based on the universal approximation theorem of operators},
+  author  = {Lu, Lu and Jin, Pengzhan and Pang, Guofei and Zhang, Zhongqiang and Karniadakis, George Em},
+  journal = {Nature Machine Intelligence},
+  volume  = {3},
+  number  = {3},
+  pages   = {218--229},
+  year    = {2021}
+}
+
+@article{NEURAL-NETWORK-BASED-APPROXIMATIONS1994,
+author = {Dissanayake, M. W. M. G. and Phan-Thien, N.},
+title = {Neural-network-based approximations for solving partial differential equations},
+journal = {Communications in Numerical Methods in Engineering},
+volume = {10},
+number = {3},
+pages = {195-201},
+doi = {https://doi.org/10.1002/cnm.1640100303},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.1640100303},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cnm.1640100303},
+abstract = {Abstract A numerical method, based on neural-network-based functions, for solving partial differential equations is reported in the paper. Using a ‘universal approximator’ based on a neural network and point collocation, the numerical problem of solving the partial differential equation is transformed to an unconstrained minimization problem. The method is extremely easy to implement and is suitable for obtaining an approximate solution in a short period of time. The technique is illustrated with the aid of two numerical examples.},
+year = {1994}
+}
+
+@article{gao_phygeonet:_2020,
+	title = {{PhyGeoNet}: {Physics}-informed geometry-adaptive convolutional neural networks for solving {Parameterized} {Steady}-{State} {PDEs} on irregular domain},
+	issn = {00219991},
+	shorttitle = {{PhyGeoNet}},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S0021999120308536},
+	doi = {10.1016/j.jcp.2020.110079},
+	language = {en},
+	urldate = {2021-01-04},
+	journal = {Journal of Computational Physics},
+	author = {Gao, Han and Sun, Luning and Wang, Jian-Xun},
+	month = dec,
+	year = {2020},
+	pages = {110079},
+}
+
+@article{learnpdefrom_gnn,
+author = {Iakovlev, Valerii and Heinonen, Markus and Lähdesmäki, Harri},
+year = {2020},
+month = {06},
+pages = {},
+title = {Learning continuous-time PDEs from sparse data with graph neural networks}
+}
+
+@article{GAO2022114502,
+title = {Physics-informed graph neural Galerkin networks: A unified framework for solving PDE-governed forward and inverse problems},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {390},
+pages = {114502},
+year = {2022},
+issn = {0045-7825},
+doi = {https://doi.org/10.1016/j.cma.2021.114502},
+url = {https://www.sciencedirect.com/science/article/pii/S0045782521007076},
+author = {Han Gao and Matthew J. Zahr and Jian-Xun Wang},
+keywords = {Partial differential equations, Inverse problem, Physics-informed machine learning, Graph convolutional neural networks, Mechanics}
+}
+@article{20130601,
+title = {计算流体力学中的间断Galerkin方法述评},
+journal = {力学进展},
+volume = {43},
+number = {20130601},
+pages = {541},
+year = {2013},
+doi = {10.6052/1000-0992-13-059},
+url = {https://lxjz.cstam.org.cn/article/doi/10.6052/1000-0992-13-059},
+author = {舒其望},
+keywords = {间断Galerkin(DG)方法}
+}
+@inproceedings{Wandel2021Learning,
+	author = {Wandel, Nils and Weinmann, Michael and Klein, Reinhard},
+	series = {Ninth International Conference on Learning Representations},
+	year = {2021},
+	title = {Learning Incompressible Fluid Dynamics from Scratch - Towards Fast, Differentiable Fluid Models that Generalize},
+	howpublished = {https://arxiv.org/abs/2006.08762},
+}
+
+@article{YAO2020112892,
+title = {FEA-Net: A physics-guided data-driven model for efficient mechanical response prediction},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {363},
+pages = {112892},
+year = {2020},
+issn = {0045-7825},
+doi = {https://doi.org/10.1016/j.cma.2020.112892},
+url = {https://www.sciencedirect.com/science/article/pii/S0045782520300748},
+author = {Houpu Yao and Yi Gao and Yongming Liu},
+keywords = {Physics-guided learning, Data-driven model, Convolutional neural networks, Finite Element Analysis},
+}
+
+
+@InProceedings{pmlr-v80-long18a,
+  title = 	 {{PDE}-Net: Learning {PDE}s from Data},
+  author =       {Long, Zichao and Lu, Yiping and Ma, Xianzhong and Dong, Bin},
+  booktitle = 	 {Proceedings of the 35th International Conference on Machine Learning},
+  pages = 	 {3208--3216},
+  year = 	 {2018},
+  editor = 	 {Dy, Jennifer and Krause, Andreas},
+  volume = 	 {80},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {10--15 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v80/long18a/long18a.pdf},
+  url = 	 {https://proceedings.mlr.press/v80/long18a.html},
+  abstract = 	 {Partial differential equations (PDEs) play a prominent role in many disciplines of science and engineering. PDEs are commonly derived based on empirical observations. However, with the rapid development of sensors, computational power, and data storage in the past decade, huge quantities of data can be easily collected and efficiently stored. Such vast quantity of data offers new opportunities for data-driven discovery of physical laws. Inspired by the latest development of neural network designs in deep learning, we propose a new feed-forward deep network, called PDE-Net, to fulfill two objectives at the same time: to accurately predict dynamics of complex systems and to uncover the underlying hidden PDE models. Comparing with existing approaches, our approach has the most flexibility by learning both differential operators and the nonlinear response function of the underlying PDE model. A special feature of the proposed PDE-Net is that all filters are properly constrained, which enables us to easily identify the governing PDE models while still maintaining the expressive and predictive power of the network. These constrains are carefully designed by fully exploiting the relation between the orders of differential operators and the orders of sum rules of filters (an important concept originated from wavelet theory). Numerical experiments show that the PDE-Net has the potential to uncover the hidden PDE of the observed dynamics, and predict the dynamical behavior for a relatively long time, even in a noisy environment.}
+}
+
+@article{https://doi.org/10.1002/pamm.202200306,
+author = {Gulakala, Rutwik and Markert, Bernd and Stoffel, Marcus},
+title = {Graph Neural Network enhanced Finite Element modelling},
+journal = {PAMM},
+volume = {22},
+number = {1},
+pages = {e202200306},
+doi = {https://doi.org/10.1002/pamm.202200306},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.202200306},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/pamm.202200306},
+year = {2023}
+}
+
+@InProceedings{pmlr-v119-de-avila-belbute-peres20a,
+  title = 	 {Combining Differentiable {PDE} Solvers and Graph Neural Networks for Fluid Flow Prediction},
+  author =       {De Avila Belbute-Peres, Filipe and Economon, Thomas and Kolter, Zico},
+  booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
+  pages = 	 {2402--2411},
+  year = 	 {2020},
+  editor = 	 {III, Hal Daumé and Singh, Aarti},
+  volume = 	 {119},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--18 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v119/de-avila-belbute-peres20a/de-avila-belbute-peres20a.pdf},
+  url = 	 {https://proceedings.mlr.press/v119/de-avila-belbute-peres20a.html},
+  abstract = 	 {Solving large complex partial differential equations (PDEs), such as those that arise in computational fluid dynamics (CFD), is a computationally expensive process. This has motivated the use of deep learning approaches to approximate the PDE solutions, yet the simulation results predicted from these approaches typically do not generalize well to truly novel scenarios. In this work, we develop a hybrid (graph) neural network that combines a traditional graph convolutional network with an embedded differentiable fluid dynamics simulator inside the network itself. By combining an actual CFD simulator (run on a much coarser resolution representation of the problem) with the graph network, we show that we can both generalize well to new situations and benefit from the substantial speedup of neural network CFD predictions, while also substantially outperforming the coarse CFD simulation alone.}
+}
+
+@book{doi:10.1137/1.9780898717440,
+author = {Rivière, Béatrice},
+title = {Discontinuous Galerkin Methods for Solving Elliptic and Parabolic Equations},
+publisher = {Society for Industrial and Applied Mathematics},
+year = {2008},
+doi = {10.1137/1.9780898717440},
+address = {},
+edition   = {},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9780898717440},
+eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9780898717440}
+}
+
+
+@book{DGM,
+author = {Rivière, Béatrice},
+title = {Discontinuous Galerkin Methods for Solving Elliptic and Parabolic Equations},
+publisher = {Society for Industrial and Applied Mathematics},
+year = {2008},
+doi = {10.1137/1.9780898717440},
+address = {},
+edition   = {},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9780898717440},
+eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9780898717440}
+}
+
+@book{numpde,
+author = {武海军},
+title = {偏微分方程数值方法},
+publisher = {},
+year = {2023},
+doi = {},
+address = {},
+edition   = {}
+}
+
+@book{STM,
+author = {Martin NEUMÜLLER},
+title = {Space-Time Methods:Fast Solvers and Applications},
+year = {2013}
+}
+
+@misc{zang2023particlewnn,
+      title={ParticleWNN: a Novel Neural Networks Framework for Solving Partial Differential Equations}, 
+      author={Yaohua Zang and Gang Bao},
+      year={2023},
+      eprint={2305.12433},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}

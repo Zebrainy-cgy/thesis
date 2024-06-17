@@ -1,0 +1,54 @@
+\cleardoublepage{}
+\begin{center}
+    \bfseries \zihao{3} 摘要
+\end{center}
+
+这项工作的主要目标是完成对经典数值算法和深度学习算法的结合，具体来说是间断有限元方法和神经网络的结合。
+在文章中我们选取了Possion方程和热方程作为方法研究的基本模型，针对提出的方法论考察了其理论和数值方面的可行性。
+
+文章分为四个部分，分别是经典数值方法的理论和数值实验结果以及实施细节，和深度学习算法相结合的理论设计和数值实验的结果和实施细节。具体来讲内容如下：
+
+第一部分首先对于一些经典的数值方法做一些调研工作，尤其是有限元类方法，包括混合有限元方法以及间断有限元方法。
+其次由于求解目标并不是一个稳态方程，所以我们讨论了关于解决瞬态PDE问题相关的经典数值方法，如线性多步法。
+但是在这里我们还是主要介绍一种不同于一般处理时间项的数值方法，时空混合方法（Space-Time Method），
+并且将其和间断有限元方法结合起来，并且基于一维热方程和NS方程介绍其理论。
+
+第二部分首先介绍了数值实现的实施细节，包括理论设计和代码设计，并且主要基于上述经典数值方法完成了数值实验，1.关于Possion方程，主要讨论了规则区域下齐次边界条件下和非齐次边界条件下的结果以及不规则边界下的效果,以及有奇点的情况；
+2.Heat方程，主要讨论了有规则解和不规则解的情况，完成相关数值实验。
+
+第三部分首先介绍了目前主流的求解PDE系统的相关深度学习方法，其中着重介绍了和PDE弱解形式相关的两种方法：弱对抗神经网络以及ParticleWNN。
+随后根据间断有限元给出的启发，基于现有方法提出改进方案。这里主要介绍想法以及方案设计思路。
+
+第四部分基于一维和二维的Possion方程展示提出方案的数值可行性，展示实验结果，并对结果进行总结。
+
+最后对于整篇工作进行总结，并提出研究展望。
+
+\paragraph*{关键词:}间断伽辽金方法；时空方法；物理信息神经网络；弱解形式；基函数；
+
+\cleardoublepage{}
+\begin{center}
+    \bfseries \zihao{3} Abstract
+\end{center}
+
+In this work, our main goal is to combine classical numerical methods with deep learning techniques. Focusing on the Poisson equation and the heat equation, we present both the theory and the results of related numerical experiments.
+
+Our work is divided into four parts: the theory and numerical experiments of the (Space-Time) discontinuous Galerkin method, and the theoretical design and numerical experiments based on a deep learning framework. Specifically, we have:
+
+In the first part, we commence with research on classical numerical methods, particularly finite element methods, which include mixed finite element methods and Discontinuous Galerkin methods. Additionally, we explore classical numerical methods for solving time-dependent problems, such as linear multi-step methods. 
+However, here we primarily introduce a novel numerical method, the Space Time Method (STM). Building upon STM, we integrate it with the discontinuous finite element method and present its theory based on the one-dimensional heat equation and the Navier-Stokes equation.
+
+In the second part, we begin by presenting the details of numerical implementation, encompassing both theoretical and code design aspects. Subsequently, we conduct numerical experiments based on the classical numerical methods mentioned earlier. Specifically:
+
+For the Poisson equation, we discuss the results under homogeneous and nonhomogeneous boundary conditions in regular and irregular domains, and also solution with singular point.
+For the heat equation, we mainly explore cases of regular and irregular solutions, completing relevant numerical experiments using STM.
+
+In the third part, we introduce current deep learning frameworks for solving PDE systems, focusing primarily on methods related to weak solutions of PDEs, such as weak adversarial networks and ParticleWNN. 
+Inspired by the discontinuous finite element method, we propose a new approach, (Split) DGNet, based on existing methods, primarily discussing ideas and frameworks of design.
+
+In the last part, we demonstrate the practicality of the new scheme and present numerical results based on the Poisson and heat equations.
+
+
+\cleardoublepage{}
+Finally, we conclude by summarizing our work and presenting prospects for future research.
+
+\paragraph*{Keywords:} Discontinuous Galerkin Method; Space-Time Method; Physics-informed Nerual Network; Weak Solution; Basis functions;
